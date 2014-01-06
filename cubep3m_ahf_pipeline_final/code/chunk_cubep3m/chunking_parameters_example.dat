@@ -1,0 +1,41 @@
+############################################################
+#							   #  
+#         Chunk CubeP3M parameter file (example)	   #
+#							   #
+# (any comments shoud be added on their own line and	   #
+# preceeded by a hash symbol)                              #
+#							   #
+#							   #
+############################################################
+#
+#
+# Redshift to be chunked (set to -1 to use an input file):
+2.000
+#
+# Redshift input file string (if -1 is set above. File needs to be ascii and contain redshift on first line):
+input_redshift
+#
+# Particle data path:
+/Users/ww60/Documents/work/code_output/cubep3m/cubepm_110526_3_216_20Mpc/output/
+#
+# Chunk output path (NB this requires subdirectories to be setup (see documentation):
+/Users/ww60/Documents/work/code_output/cubep3m/cubepm_110526_3_216_20Mpc/chunked_output/
+#
+# Cubep3m boxlength (in Mpc/h):
+20
+#
+# Cubep3m Nodes per dimension:
+3
+# Cubep3m fine mesh cells per dimension (i.e. twice the particles per dimension):
+432
+#
+# PID flag. set to 1 if PIDs are available in the simulation output, or 0 if not:
+0
+#
+# Buffer size in Mpc/h (see documentation):
+1.0
+#
+# Chunking dimensions (number of chunks in x,y,z):
+2
+2
+2

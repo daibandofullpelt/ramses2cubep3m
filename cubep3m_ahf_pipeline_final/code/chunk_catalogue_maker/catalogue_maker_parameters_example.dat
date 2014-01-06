@@ -1,0 +1,44 @@
+############################################################
+#							   #  
+# Chunk Catalogue maker parameter file (example)	   #
+#							   #
+# (any comments shoud be added on their own line and	   #
+# preceeded by a hash symbol)                              #
+#							   #
+#							   #
+############################################################
+#
+#
+# Chunk start (which chunk to begin processing):
+0
+# Chunk end (which chunk to process before stopping):
+7
+# Redshift:
+2.000
+#
+# Redshift input file string (if -1 is set above. File needs to be ascii and contain redshift on first line):
+input_redshift
+#
+# AHF data path:
+/Users/ww60/Documents/work/code_output/cubep3m/cubepm_110526_3_216_20Mpc/AHF_output/
+#
+# Catalogue output path:
+/Users/ww60/Documents/work/code_output/cubep3m/cubepm_110526_3_216_20Mpc/output/
+#
+# Cubep3m boxlength (in Mpc/h):
+20
+#
+# Cubep3m Nodes per dimension:
+3
+#
+# Cubep3m fine mesh cells per dimension (i.e. twice the particles per dimension):
+432
+#
+# Buffer size in Mpc/h (see documentation):
+1.0
+#
+# Number of chunks in total:
+8
+#
+# Number of AHF files per chunk:
+2
