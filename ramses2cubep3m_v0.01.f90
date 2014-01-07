@@ -25,9 +25,6 @@ program ramses2cube3m
 	integer :: i, j, ilevel, idim, idm, istar, ifile, icpu, ivar, ind,col
 	integer :: nfiles, ncpus, ndim, twotondim, firstfile, lastfile
 
-	! flags
-	logical :: gas, stars, interpolate, refined(8), allrefined
-
 	! cosmological and physical parameters
 	real(kind=8)            :: omega_m, omega_l, H0, h, a, gamma, boxsize, dbldummy
 
@@ -97,6 +94,11 @@ subroutine ramses2gadget
 	! ramses2gadget version 1.0 !
 	! ========================= !
 	! (c) 2009 by Timur Doumler !
+
+	implicit none
+
+	! flags
+	logical :: gas, stars, interpolate, refined(8), allrefined
 
 	if (debug) write(*,*) 'Entering ramses2gadget subroutine'
 
