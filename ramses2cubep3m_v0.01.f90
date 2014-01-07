@@ -95,11 +95,6 @@ subroutine ramses2gadget
 	! ========================= !
 	! (c) 2009 by Timur Doumler !
 
-	implicit none
-
-	! flags
-	logical :: gas, stars, interpolate, refined(8), allrefined
-
 	if (debug) write(*,*) 'Entering ramses2gadget subroutine'
 
 	! Display hello message
